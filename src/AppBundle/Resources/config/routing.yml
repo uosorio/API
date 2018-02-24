@@ -1,0 +1,34 @@
+persona_index:
+    path:     /Persona
+    defaults: { _controller: AppBundle:Persona:index }
+    
+persona_new:
+    path:     /Persona/new
+    defaults: { _controller: AppBundle:Persona:new }
+
+persona_show:
+    path:     /Persona/show/{id}
+    defaults: { _controller: AppBundle:Persona:show }
+
+persona_edit:
+    path:     /Persona/{id}/edit
+    defaults: { _controller: AppBundle:Persona:edit }
+    
+persona_delete:
+    path:     /Persona/delete/{id}
+    defaults: { _controller: AppBundle:Persona:delete }
+    
+persona_buscar:
+    path:     /Persona/buscarmayores
+    defaults: { _controller: AppBundle:Persona:buscarmayores }
+    
+persona_api:
+    path:     /Persona/Api/{mes}
+    defaults: { _controller: AppBundle:Persona:Api }
+    
+persona_json:
+    path:     /Persona/twig_jscodeon_de
+    defaults: { _controller: AppBundle:Persona:twig_jscodeon_de}
+
+
+
